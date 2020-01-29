@@ -7,7 +7,7 @@ def create_an_array
 end
 
 def add_element_to_end_of_array(array, element)
-  elements << "Metal"
+  elements.push("Metal")
   puts elements.inspect
 end
 
